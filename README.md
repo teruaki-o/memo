@@ -10,6 +10,9 @@ $ pip3 install urllib3==1.26.15
 ```
 
 ## mac book のGPUを学習に使いたい
+
+参考：https://zenn.dev/hidetoshi/articles/20220731_pytorch-m1-macbook-gpu
+
 torch(pytorch) 2.0.0 以降
 
 ```

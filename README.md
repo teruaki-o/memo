@@ -11,11 +11,13 @@ $ pip3 install urllib3==1.26.15
 
 ## mac book のGPUを学習に使いたい
 torch(pytorch) 2.0.0 以降
+
 '''
 import torch
 torch.backends.mps.is_available()
 True
 '''
+
 なら使える。
 
 '''

@@ -12,19 +12,19 @@ $ pip3 install urllib3==1.26.15
 ## mac book のGPUを学習に使いたい
 torch(pytorch) 2.0.0 以降
 
-'''
-import torch
-torch.backends.mps.is_available()
+```
+>>> import torch
+>>> torch.backends.mps.is_available()
 True
-'''
+```
 
 なら使える。
 
-'''
+```
 parser = ArgumentParser()
 parser.add_argument('--device', type=str, default='mps',
                     choices=['cpu', 'mps'])
 args = parser.parse_args()
 device = torch.device(args.device)
-'''
+```
 cuda を選ぶところをmpsにすればいい。

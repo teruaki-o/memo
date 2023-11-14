@@ -9,7 +9,7 @@ lib/python3.9/site-packages/urllib3/__init__.py:34: NotOpenSSLWarning: urllib3 v
 $ pip3 install urllib3==1.26.15
 ```
 
-## mac book のGPUを学習に使いたい
+## mac book のGPUをLLM用に使いたい
 
 参考：https://zenn.dev/hidetoshi/articles/20220731_pytorch-m1-macbook-gpu
 

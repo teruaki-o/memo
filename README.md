@@ -44,7 +44,7 @@ We are adding a notification about this issue to the dataset card.
 
 ライセンス的に使うとアウト。
 
-SetFit/amazon_reviews_multi_ja
+https://huggingface.co/datasets/SetFit/amazon_reviews_multi_ja
 
 > You may not resell, republish, or make any commercial use of the Reviews Corpus or its contents, including use of the Reviews Corpus for commercial research, such as research related to a funding or consultancy contract, internship, or other relationship in which the results are provided for a fee or delivered to a for-profit organization. 
 

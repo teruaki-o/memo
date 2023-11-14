@@ -31,3 +31,11 @@ args = parser.parse_args()
 device = torch.device(args.device)
 ```
 cuda を選ぶところをmpsにすればいい。
+
+## Amazon、review のデータセット公開やめたってよ。
+
+```https://github.com/huggingface/datasets/issues/6109
+Indeed, the source data files are no longer available. We have contacted the authors of the dataset and they report that Amazon has decided to stop distributing the multilingual reviews dataset.
+
+We are adding a notification about this issue to the dataset card.
+```

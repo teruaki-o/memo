@@ -54,4 +54,6 @@ https://qiita.com/yoskeoka/items/541b6a4260487fbc2c0f
 
 ずっと Windows か Linux だったから、そうなんだ、という。 ext/stdio_filebuf.h がないって言われて初めて気づいた。
 
+シンボリックリンクを張る時、/usr/local/bin/ に g++ はなくて、コマンド中のそこのパスを /opt/homebrew/bin/* に書き換える必要がある。あとターミナルの再起動。
+
 

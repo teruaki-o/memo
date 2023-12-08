@@ -48,3 +48,10 @@ https://huggingface.co/datasets/SetFit/amazon_reviews_multi_ja
 
 > You may not resell, republish, or make any commercial use of the Reviews Corpus or its contents, including use of the Reviews Corpus for commercial research, such as research related to a funding or consultancy contract, internship, or other relationship in which the results are provided for a fee or delivered to a for-profit organization. 
 
+## mac のG++ Linuxのと違う件
+
+https://qiita.com/yoskeoka/items/541b6a4260487fbc2c0f
+
+ずっと Windows か Linux だったから、そうなんだ、という。 ext/stdio_filebuf.h がないって言われて初めて気づいた。
+
+

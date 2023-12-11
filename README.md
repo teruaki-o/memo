@@ -56,4 +56,8 @@ https://qiita.com/yoskeoka/items/541b6a4260487fbc2c0f
 
 シンボリックリンクを張る時、/usr/local/bin/ に g++ はなくて、コマンド中のそこのパスを /opt/homebrew/bin/* に書き換える必要がある。あとターミナルの再起動。
 
+で、これやっても /usr/bin/clang++ とかが優先される場合は、無理やり
 
+＄ CXX=/usr/local/bin/g++ CC=/usr/local/bin/gcc ./waf configure
+
+みたいにする。
